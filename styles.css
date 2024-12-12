@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    
+}
+
+.header{
+    /* background-color: lime; */
+    width: 90%;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+
+.main-wrapper{
+    height: 100vh;
+    
+    background-image: url(./images/pexels-photo-2078266.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text{
+    font-size: 36px;
+    text-align: center;
+    padding-block: 20px;
+}
+
+.progress{
+text-align: center;
+font-size: 12px;
+padding-block: 10px;
+}
+
+.progressbar{
+    height: 10px;
+    background-color: #fff;
+    /* box-shadow: 4px 4px 8px lightgray; */
+    /* background-image: linear-gradient(to right, #00dcff,#00dcff,#00dcff,#00dcff,#fff); */
+    border-radius: 5px;
+}
+
+.barstat {
+    height:10px;
+    width: 75%;
+    background-color: #00dcff ;
+    border-radius: 5px 0 0 5px;
+}
+
+.progressnumber{
+    /* background-color: aqua; */
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 5px;
+}
+
+.button{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+.button button{
+    color: #000;
+    background-color: #00dcff;
+    border: 1px lightgray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.contact{
+display: flex;
+justify-content: space-evenly;
+padding-top: 10px;
+/* gap: 20px; */
+}
+
+.contact a {
+    display: inline-flex;
+    width: 40px; height: 40px;
+    /* background-color: aqua; */
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    gap: 25px;
+    justify-content: center;
+    align-items: baseline;
+    /* flex-direction: row; */
+}
+
+.contact a img {
+    width: 35px;
+    padding: 2px;
+    position: relative;
+    top: 2px;
+    /* position: relative;
+    top: 20%;
+    left: 20%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding-left: 2px; */
+}
+
+
+.footer{
+    /* background-color: lime; */
+    width: 90%;
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+}
